@@ -1,0 +1,19 @@
+
+**** Clean-only build of configuration Debug for project usblib ****
+
+"C:\\ti\\ccs920\\ccs\\utils\\bin\\gmake" -k clean 
+ 
+DEL /F  "usblib.lib" 
+DEL /F "usbbuffer.obj" "usbdesc.obj" "usbdma.obj" "usbkeyboardmap.obj" "usbmode.obj" "usbringbuf.obj" "usbtick.obj" "usbulpi.obj" "device\usbdaudio.obj" "device\usbdbulk.obj" "device\usbdcdc.obj" "device\usbdcdesc.obj" "device\usbdcomp.obj" "device\usbdconfig.obj" "device\usbddfu-rt.obj" "device\usbdenum.obj" "device\usbdhandler.obj" "device\usbdhid.obj" "device\usbdhidgamepad.obj" "device\usbdhidkeyb.obj" "device\usbdhidmouse.obj" "device\usbdmsc.obj" "host\usbhaudio.obj" "host\usbhhid.obj" "host\usbhhidkeyboard.obj" "host\usbhhidmouse.obj" "host\usbhhub.obj" "host\usbhmsc.obj" "host\usbhostenum.obj" "host\usbhscsi.obj" 
+DEL /F "usbbuffer.d" "usbdesc.d" "usbdma.d" "usbkeyboardmap.d" "usbmode.d" "usbringbuf.d" "usbtick.d" "usbulpi.d" "device\usbdaudio.d" "device\usbdbulk.d" "device\usbdcdc.d" "device\usbdcdesc.d" "device\usbdcomp.d" "device\usbdconfig.d" "device\usbddfu-rt.d" "device\usbdenum.d" "device\usbdhandler.d" "device\usbdhid.d" "device\usbdhidgamepad.d" "device\usbdhidkeyb.d" "device\usbdhidmouse.d" "device\usbdmsc.d" "host\usbhaudio.d" "host\usbhhid.d" "host\usbhhidkeyboard.d" "host\usbhhidmouse.d" "host\usbhhub.d" "host\usbhmsc.d" "host\usbhostenum.d" "host\usbhscsi.d" 
+Could Not Find C:\Users\Youssef Assem\tm4c123g\usblib\Debug\usblib.lib
+Could Not Find C:\Users\Youssef Assem\tm4c123g\usblib\Debug\usbbuffer.obj
+Could Not Find C:\Users\Youssef Assem\tm4c123g\usblib\Debug\device\usbdaudio.obj
+Could Not Find C:\Users\Youssef Assem\tm4c123g\usblib\Debug\host\usbhaudio.obj
+Could Not Find C:\Users\Youssef Assem\tm4c123g\usblib\Debug\usbbuffer.d
+Could Not Find C:\Users\Youssef Assem\tm4c123g\usblib\Debug\device\usbdaudio.d
+Could Not Find C:\Users\Youssef Assem\tm4c123g\usblib\Debug\host\usbhaudio.d
+Finished clean
+ 
+
+**** Build Finished ****
