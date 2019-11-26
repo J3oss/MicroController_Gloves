@@ -496,8 +496,7 @@ volatile uint32_t g_ui32SysTickCount;
 //// timeouts.
 ////
 ////*****************************************************************************
-void
-SysTickIntHandler(void)
+void SysTickIntHandler(void)
 {
     g_ui32SysTickCount++;
 }
@@ -776,7 +775,7 @@ volatile enum {
 // This is a mousehandler
 //
 //*****************************************************************************
-uint32_t MouseHandler(void *pvCBData, uint32_t ui32Event, uint32_t ui32MsgData,void *pvMsgData)
+uint32_t MouseHandler(void *pvCBData, uint32_t ui32Event, uint32_t ui32MsgData, void *pvMsgData)
 {
     switch (ui32Event)
     {
@@ -814,13 +813,14 @@ uint32_t MouseHandler(void *pvCBData, uint32_t ui32Event, uint32_t ui32MsgData,v
     return (0);
 }
 
-
 int main(void)
 {
-    USBDHIDMouseInit(0, (tUSBDHIDMouseDevice *)&g_sMouseDevice);
-
-    while(1)
+    do
     {
+        pvDevice = USBDHIDMouseInit(0, (tUSBDHIDMouseDevice *)&g_sMouseDevice);
+    } while (!pvDevice);
 
+    while (1)
+    {
     }
 }
